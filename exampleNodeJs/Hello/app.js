@@ -15,9 +15,6 @@ http.createServer(function (req, res) {
 
 console.log("Server running at http://127.0.0.1/");
 function newFunction() {
-    return '<html>' + 
-            '<title>THE MOSS MAN TITLE</TITLE>' +
-            '<body><h1>THIS IS THE TEST</h1></body>' +
-            '</html>';
+    return 'This statement will be placed in the document as its body';
 }
 
